@@ -7,7 +7,7 @@
 #include <windows.h>
 
 #define AUTHOR_NAME "MD. Naiem Islam Nahid"
-#define BASE_DIR "generated_folders"
+#define BASE_DIR "generated_folders_c"
 
 // Function to generate random string
 void generate_random_word(char *word, int length) {
