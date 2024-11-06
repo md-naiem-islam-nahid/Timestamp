@@ -14,7 +14,7 @@ namespace fs = std::filesystem;
 class FolderGenerator {
 private:
     const std::string AUTHOR_NAME = "MD. Naiem Islam Nahid";
-    const std::string BASE_DIR = "generated_folders";
+    const std::string BASE_DIR = "generated_folders_cpp";
     std::random_device rd;
     std::mt19937 gen;
     std::uniform_int_distribution<> dist_char;
