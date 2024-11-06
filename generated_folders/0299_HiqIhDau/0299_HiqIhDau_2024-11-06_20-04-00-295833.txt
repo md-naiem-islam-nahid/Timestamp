@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 20:04:00.295833
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0299_HiqIhDau
-File: 0299_HiqIhDau_2024-11-06_20-04-00-295833.txt
-UUID: 72cf02af-301b-445c-a018-56eacc7b69ef

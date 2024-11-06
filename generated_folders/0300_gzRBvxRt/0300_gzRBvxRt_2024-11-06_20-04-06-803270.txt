@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 20:04:06.803270
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0300_gzRBvxRt
-File: 0300_gzRBvxRt_2024-11-06_20-04-06-803270.txt
-UUID: 0c1290c0-86d2-480e-8941-e3e380a64edb

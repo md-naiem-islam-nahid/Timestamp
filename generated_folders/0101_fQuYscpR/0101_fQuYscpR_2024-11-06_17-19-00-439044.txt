@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 17:19:00.439044
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0101_fQuYscpR
-File: 0101_fQuYscpR_2024-11-06_17-19-00-439044.txt
-UUID: c7e87bf7-37be-4d6d-96a5-eb6a78b177ef

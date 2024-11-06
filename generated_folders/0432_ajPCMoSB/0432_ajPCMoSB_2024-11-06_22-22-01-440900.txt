@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 22:22:01.440900
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0432_ajPCMoSB
-File: 0432_ajPCMoSB_2024-11-06_22-22-01-440900.txt
-UUID: 4e76723f-6766-4439-9422-09d7e9787826

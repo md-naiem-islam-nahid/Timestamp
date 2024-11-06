@@ -1,6 +1,0 @@
-Timestamp: 2024-11-07 00:16:23.011830
-Date: 2024-11-07
-Created by: MD. Naiem Islam Nahid
-Folder: 0500_MyeeIERT
-File: 0500_MyeeIERT_2024-11-07_00-16-23-011830.txt
-UUID: 23f7457f-062f-483d-ab99-b4dae5fb43ac

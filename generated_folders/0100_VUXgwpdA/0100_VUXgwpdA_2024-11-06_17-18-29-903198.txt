@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 17:18:29.903198
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0100_VUXgwpdA
-File: 0100_VUXgwpdA_2024-11-06_17-18-29-903198.txt
-UUID: edc8ee95-78ef-4e4f-b418-11411eef9d77

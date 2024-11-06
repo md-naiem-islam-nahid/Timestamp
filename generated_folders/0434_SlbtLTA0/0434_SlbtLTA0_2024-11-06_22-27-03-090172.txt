@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 22:27:03.090172
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0434_SlbtLTA0
-File: 0434_SlbtLTA0_2024-11-06_22-27-03-090172.txt
-UUID: 7c683a10-10fd-4d41-b03e-5bdf689bc3b0

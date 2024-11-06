@@ -1,6 +1,0 @@
-Timestamp: 2024-11-07_03-52-00-960
-Date: 2024-11-07
-Created by: MD. Naiem Islam Nahid
-Folder: 0001_Sr6EzLY1
-File: 0001_Sr6EzLY1_2024-11-07_03-52-00-960.txt
-UUID: 3dfd82e2-35e7-4f28-90b6-c8bb5c73736b

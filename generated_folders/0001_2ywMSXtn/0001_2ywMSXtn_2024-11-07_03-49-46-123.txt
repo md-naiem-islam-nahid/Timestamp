@@ -1,6 +1,0 @@
-Timestamp: 2024-11-07_03-49-46-123
-Date: 2024-11-07
-Created by: MD. Naiem Islam Nahid
-Folder: 0001_2ywMSXtn
-File: 0001_2ywMSXtn_2024-11-07_03-49-46-123.txt
-UUID: 22ff9b31-8e7c-4232-a78d-5a31a474cac5

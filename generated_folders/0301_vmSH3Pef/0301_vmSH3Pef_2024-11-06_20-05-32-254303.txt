@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 20:05:32.254303
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0301_vmSH3Pef
-File: 0301_vmSH3Pef_2024-11-06_20-05-32-254303.txt
-UUID: 86caddc7-e493-4cbe-bb42-64593534a80c

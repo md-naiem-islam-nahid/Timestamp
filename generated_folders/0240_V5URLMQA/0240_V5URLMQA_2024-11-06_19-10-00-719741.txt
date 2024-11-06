@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 19:10:00.719741
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0240_V5URLMQA
-File: 0240_V5URLMQA_2024-11-06_19-10-00-719741.txt
-UUID: 229e130c-6c2b-47bd-8fcd-0d2a9e2d3832

@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 20:39:04.128901
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0336_PfcDsIsW
-File: 0336_PfcDsIsW_2024-11-06_20-39-04-128901.txt
-UUID: db8b5828-13b9-43b4-ae88-ab72e290e801

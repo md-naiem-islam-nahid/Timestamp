@@ -1,6 +1,0 @@
-Timestamp: 2024-11-07 01:45:13.789325
-Date: 2024-11-07
-Created by: MD. Naiem Islam Nahid
-Folder: 0570_BLDpez2j
-File: 0570_BLDpez2j_2024-11-07_01-45-13-789325.txt
-UUID: 128b34f3-c03c-4923-aa7d-03110cdfa755

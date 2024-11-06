@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 18:41:18.913849
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0206_DSCohnsS
-File: 0206_DSCohnsS_2024-11-06_18-41-18-913849.txt
-UUID: 46f7d7f9-3e0d-44cc-860c-f93ab2e180e6

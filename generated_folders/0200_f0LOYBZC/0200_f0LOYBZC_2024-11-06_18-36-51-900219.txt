@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 18:36:51.900219
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0200_f0LOYBZC
-File: 0200_f0LOYBZC_2024-11-06_18-36-51-900219.txt
-UUID: 2631fade-db0a-4564-a65c-76685edc2b12

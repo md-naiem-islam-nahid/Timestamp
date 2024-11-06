@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 21:27:50.046257
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0384_cxxLYTRI
-File: 0384_cxxLYTRI_2024-11-06_21-27-50-046257.txt
-UUID: c1c46917-8f87-4e27-aea2-bceeb218d6f7

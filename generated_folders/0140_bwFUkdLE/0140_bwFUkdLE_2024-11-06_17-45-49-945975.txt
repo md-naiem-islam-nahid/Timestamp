@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 17:45:49.945975
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0140_bwFUkdLE
-File: 0140_bwFUkdLE_2024-11-06_17-45-49-945975.txt
-UUID: f64b3586-c952-401c-b067-3d2b52f43c5c

@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 17:55:12.025627
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0148_4ZU9JsCu
-File: 0148_4ZU9JsCu_2024-11-06_17-55-12-025627.txt
-UUID: db8d42f4-5a22-40f6-a060-9c0bb7ec85eb

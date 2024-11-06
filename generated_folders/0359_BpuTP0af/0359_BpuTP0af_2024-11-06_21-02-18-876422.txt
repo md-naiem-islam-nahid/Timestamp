@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 21:02:18.876422
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0359_BpuTP0af
-File: 0359_BpuTP0af_2024-11-06_21-02-18-876422.txt
-UUID: 17e33cc4-06f4-4c0d-a415-47aa28893dc6

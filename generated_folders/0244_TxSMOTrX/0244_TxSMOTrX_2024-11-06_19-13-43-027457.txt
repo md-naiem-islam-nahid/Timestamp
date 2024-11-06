@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 19:13:43.027457
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0244_TxSMOTrX
-File: 0244_TxSMOTrX_2024-11-06_19-13-43-027457.txt
-UUID: 06e3fe03-588f-410f-ac07-9010c09ca901

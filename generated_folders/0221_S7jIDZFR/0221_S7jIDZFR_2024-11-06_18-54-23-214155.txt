@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 18:54:23.214155
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0221_S7jIDZFR
-File: 0221_S7jIDZFR_2024-11-06_18-54-23-214155.txt
-UUID: 68692d99-c88e-41eb-b059-8ddcf12c9ba2

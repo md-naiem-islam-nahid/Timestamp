@@ -1,6 +1,0 @@
-Timestamp: 2024-11-06 21:26:24.981029
-Date: 2024-11-06
-Created by: MD. Naiem Islam Nahid
-Folder: 0382_ItcQCODR
-File: 0382_ItcQCODR_2024-11-06_21-26-24-981029.txt
-UUID: 9d7db8a9-1699-4785-aa13-7f5eae9032de
