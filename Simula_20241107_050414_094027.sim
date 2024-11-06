@@ -1,0 +1,13 @@
+Begin
+   OutText("Hello, World!");
+   OutImage;
+End;
+
+===========================================
+Created by: MD. Naiem Islam Nahid
+File Type: Simula
+Magic Number: 1269
+Time: 2024-11-07T05:04:14.094027
+Date: Thursday, 07 November 2024, 2024th century
+Emoji: None
+===========================================
