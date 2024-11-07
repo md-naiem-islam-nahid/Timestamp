@@ -1,69 +1,186 @@
 import os
-import random
-import string
 import time
-from datetime import datetime
-import subprocess
 import uuid
+import random
+from datetime import datetime
+import calendar
+import subprocess
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional
+import emoji
+import pyjokes
+import randfacts
+from art import text2art, art, FONT_NAMES, ART_NAMES
+import random_quotes_generator
 
-def generate_random_word(length=8):
-    """Generate a random word using letters and numbers."""
-    characters = string.ascii_letters + string.digits
-    return ''.join(random.choice(characters) for _ in range(length))
+class ContentDesigner:
+    """Handles professional content design and formatting"""
+    
+    def __init__(self):
+        self.programming_languages = [
+            'Python', 'JavaScript', 'Java', 'C++', 'Ruby', 'Go', 'Rust',
+            'Swift', 'Kotlin', 'PHP', 'TypeScript', 'SQL', 'Scala', 'R',
+            'MATLAB', 'Perl', 'Haskell', 'Julia', 'Dart', 'ABAP'
+        ]
+        self.emojis = {
+            'tech': ['💻', '⌨️', '🖥️', '🔌', '🛠️', '⚡'],
+            'nature': ['🌳', '🌺', '🌸', '🍀', '🌿', '🌱'],
+            'space': ['🚀', '🌠', '🌌', '✨', '🛸', '🌍'],
+            'innovation': ['💡', '🔬', '🎯', '⚙️', '📱', '🤖']
+        }
+        self.fonts = [font for font in FONT_NAMES if not any(x in font.lower() for x in ['block', 'banner'])]
+        self.art_names = [art for art in ART_NAMES if len(art) > 2]
 
-def create_folder_structure():
-    author_name = "MD. Naiem Islam Nahid"
-    base_dir = "generated_folders"
+    def get_formatted_timestamp(self) -> Dict[str, str]:
+        """Generate professionally formatted timestamp information"""
+        now = datetime.now()
+        return {
+            'time': now.strftime('%Y-%m-%dT%H:%M:%S.%f'),
+            'date': now.strftime('%A, %d %B %Y'),
+            'century': f"{(now.year // 100) + 1}th century",
+            'week': f"Week {now.isocalendar()[1]} of {now.year}",
+            'day_of_year': f"Day {now.timetuple().tm_yday} of {now.year}"
+        }
+
+    def generate_header_art(self, text: str) -> str:
+        """Generate artistic header text"""
+        try:
+            font = random.choice(self.fonts)
+            return text2art(text, font=font)
+        except:
+            return text2art(text, font="standard")
+
+    def get_themed_content(self, theme: str) -> Dict[str, str]:
+        """Generate theme-based content with proper error handling"""
+        try:
+            return {
+                'quote': random_quotes_generator.get_random_quotes(),
+                'fact': randfacts.get_fact(),
+                'joke': pyjokes.get_joke(),
+                'art': art(random.choice(self.art_names)),
+                'emojis': ' '.join(random.sample(self.emojis.get(theme, self.emojis['tech']), 3))
+            }
+        except Exception as e:
+            # Fallback content
+            return {
+                'quote': "Innovation distinguishes between a leader and a follower.",
+                'fact': "The first computer programmer was a woman named Ada Lovelace.",
+                'joke': "Why do programmers prefer dark mode? Because light attracts bugs!",
+                'art': art("coffee"),
+                'emojis': '💻 ⚡ 🚀'
+            }
+
+class ProfessionalFolderGenerator:
+    """Manages creation of folders and files with professional content"""
     
-    # Create base directory if it doesn't exist
-    if not os.path.exists(base_dir):
-        os.makedirs(base_dir)
-    
-    # Create 1000 folders
-    for folder_num in range(1, 1001):
-        # Generate random folder name with serial number
-        random_word = generate_random_word()
-        folder_name = f"{folder_num:04d}_{random_word}"
-        folder_path = os.path.join(base_dir, folder_name)
+    def __init__(self):
+        self.base_dir = "generated_folders"
+        self.designer = ContentDesigner()
+        Path(self.base_dir).mkdir(exist_ok=True)
+
+    def create_professional_content(self, folder_name: str, file_num: int, theme: str) -> str:
+        """Generate professionally formatted content for each file"""
+        timestamps = self.designer.get_formatted_timestamp()
+        content = self.designer.get_themed_content(theme)
+        lang = random.choice(self.designer.programming_languages)
         
-        # Create folder
-        os.makedirs(folder_path)
+        # Create unique identifier
+        file_uuid = str(uuid.uuid4())
+        magic_number = random.randint(1000, 9999)
         
-        # Git commit for folder creation
-        subprocess.run(['git', 'add', folder_path])
-        commit_msg = f"Created folder: {folder_name}"
-        subprocess.run(['git', 'commit', '-m', commit_msg])
+        return f"""{'='*80}
+{self.designer.generate_header_art(f"File {file_num:03d}")}
+{'='*80}
+
+📂 SYSTEM INFORMATION
+-------------------
+Generated By: MD. Naiem Islam Nahid
+File Type: {lang}
+UUID: {file_uuid}
+Magic Number: {magic_number}
+Collection: {folder_name}
+
+⏰ TEMPORAL INFORMATION
+---------------------
+Time: {timestamps['time']}
+Date: {timestamps['date']}
+Century: {timestamps['century']}
+Week: {timestamps['week']}
+Year Progress: {timestamps['day_of_year']}
+
+🎨 ARTISTIC CONTENT
+-----------------
+{content['art']}
+
+💭 INTELLECTUAL CONTENT
+---------------------
+Quote of the Moment:
+    "{content['quote']}"
+
+🧠 Knowledge Nugget:
+    {content['fact']}
+
+😄 Technical Humor:
+    {content['joke']}
+
+{'='*80}
+🎯 Theme: {theme.upper()}
+🔮 Emojis: {content['emojis']}
+🔑 Checksum: {hash(file_uuid) % 10000:04d}
+{'='*80}"""
+
+    def generate_structure(self):
+        """Create the complete folder structure with professional content"""
+        print("Initiating Professional Folder Generation Process...")
+        start_time = time.time()
         
-        # Create 100 files in the folder
-        for file_num in range(1, 101):
-            # Get current timestamp with nanoseconds
-            timestamp = datetime.now()
-            timestamp_str = timestamp.strftime('%Y-%m-%d_%H-%M-%S-%f')
-            
-            # Create unique file name
-            file_name = f"{folder_name}_{timestamp_str}.txt"
-            file_path = os.path.join(folder_path, file_name)
-            
-            # Write content to file
-            with open(file_path, 'w') as f:
-                content = f"""Timestamp: {timestamp}
-Date: {timestamp.strftime('%Y-%m-%d')}
-Created by: {author_name}
-Folder: {folder_name}
-File: {file_name}
-UUID: {uuid.uuid4()}"""
-                f.write(content)
-            
-            # Git commit for file creation
-            subprocess.run(['git', 'add', file_path])
-            commit_msg = f"Created file in {folder_name}: {file_name}"
-            subprocess.run(['git', 'commit', '-m', commit_msg])
+        try:
+            for folder_num in range(1, 5):
+                # Generate folder information
+                theme = random.choice(list(self.designer.emojis.keys()))
+                folder_name = f"{folder_num:04d}_{theme}_{uuid.uuid4().hex[:6]}"
+                folder_path = os.path.join(self.base_dir, folder_name)
+                os.makedirs(folder_path, exist_ok=True)
+                
+                # Git commit for folder
+                subprocess.run(['git', 'add', folder_path], 
+                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                subprocess.run(['git', 'commit', '-m', f"Created professional folder: {folder_name}"],
+                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                
+                # Generate files
+                for file_num in range(1, 101):
+                    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+                    file_name = f"{theme}_file_{timestamp}.txt"
+                    file_path = os.path.join(folder_path, file_name)
+                    
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        content = self.create_professional_content(folder_name, file_num, theme)
+                        f.write(content)
+                    
+                    # Git commit for file
+                    subprocess.run(['git', 'add', file_path],
+                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                    subprocess.run(['git', 'commit', '-m', f"Created file in {folder_name}: {file_name}"],
+                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                
+                progress = (folder_num / 1000) * 100
+                print(f"Progress: {progress:.1f}% - Generated folder {folder_num}/1000: {folder_name}")
         
-        print(f"Completed folder {folder_num}/1000: {folder_name}")
+        except Exception as e:
+            print(f"Error occurred: {str(e)}")
+            return
+        
+        duration = time.time() - start_time
+        print(f"\nGeneration Complete!")
+        print(f"Time Elapsed: {duration:.2f} seconds")
+        print(f"Successfully generated content in: {self.base_dir}")
 
 if __name__ == "__main__":
     try:
-        create_folder_structure()
-        print("Successfully created all folders and files with git commits!")
+        generator = ProfessionalFolderGenerator()
+        generator.generate_structure()
+    except KeyboardInterrupt:
+        print("\nOperation cancelled by user")
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"An unexpected error occurred: {str(e)}")
