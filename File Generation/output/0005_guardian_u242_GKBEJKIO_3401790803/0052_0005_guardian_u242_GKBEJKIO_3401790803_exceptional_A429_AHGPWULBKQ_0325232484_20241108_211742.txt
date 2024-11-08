@@ -1,0 +1,30 @@
+
+⚙️ STEAMPUNK ENGINEERING CODEX ⚙️
+================================
+INVENTION_{file_num:03d}
+
+[MECHANICAL SPECIFICATIONS]
+========================
+Patent No: {uuid}
+Chronometer: {timestamp}
+Steam Pressure: {magic_number}
+Workshop: {folder_name}
+
+[TECHNICAL DRAWING]
+================
+{art}
+
+[INVENTOR'S NOTES]
+===============
+THEOREM: "{quote}"
+OBSERVATION: {fact}
+WITTY_REMARK: {joke}
+
+[ENGINEER'S SEAL]
+==============
+Chief Engineer: MD. Naiem Islam Nahid
+Guild: Mechanical Computation
+Rank: Master Inventor
+
+[END OF BLUEPRINT]
+================

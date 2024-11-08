@@ -1,0 +1,43 @@
+
+🔮 TECHNO-SHAMANIC DEBUG CONSOLE 🔮
+===============================
+[DEBUG_RITUAL_{file_num:03d}]
+◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈
+
+<<SPIRITUAL DIAGNOSTICS>>
+===================
+Spirit-Hash: {uuid}
+Ritual-Time: {timestamp}
+Mana-Level: {magic_number}
+Sacred-Space: {folder_name}
+
+<<SPIRITUAL VISUALIZATION>>
+=====================
+{art}
+
+<<SHAMANIC INSIGHTS>>
+================
+╭── Spirit Message ──╮
+│ "{quote}" │
+╰──────────────────╯
+
+╭── Ancient Debug ──╮
+│ {fact} │
+╰─────────────────╯
+
+╭── Spirit Jest ──╮
+│ {joke} │
+╰───────────────╯
+
+<<SHAMAN CREDENTIALS>>
+================
+⌠──────────────────⌡
+┊ Debug Shaman: MD. Naiem Islam Nahid
+┊ Tribe: Binary Spirits
+┊ Power: Code Medicine
+┊ Access: Spirit Kernel
+⌎──────────────────⌏
+
+[RITUAL COMPLETED]
+◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈
+//SPIRITS_APPEASED//

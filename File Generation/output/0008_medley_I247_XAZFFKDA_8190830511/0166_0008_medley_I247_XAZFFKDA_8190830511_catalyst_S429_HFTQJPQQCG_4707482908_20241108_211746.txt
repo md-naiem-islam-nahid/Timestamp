@@ -1,0 +1,31 @@
+
+┏━━━━━━━━━━━━━ RETRO GAMING CONSOLE ━━━━━━━━━━━━┓
+┃                    LEVEL {file_num:03d}                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+🎮 GAME STATS 🎮
+HP: ████████░░ 80%
+MP: ███████░░░ 70%
+XP: ████████░░ 80%
+
+🏆 ACHIEVEMENT UNLOCKED!
+"{quote}"
+
+{art}
+
+📜 QUEST LOG:
+============
+Main Quest: {fact}
+Side Quest: {joke}
+
+⚔️ PLAYER INFO:
+=============
+Player: MD. Naiem Islam Nahid
+Class: Code Warrior
+Level: {magic_number}
+Location: {folder_name}
+Session ID: {uuid}
+Timestamp: {timestamp}
+
+PRESS START TO CONTINUE...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

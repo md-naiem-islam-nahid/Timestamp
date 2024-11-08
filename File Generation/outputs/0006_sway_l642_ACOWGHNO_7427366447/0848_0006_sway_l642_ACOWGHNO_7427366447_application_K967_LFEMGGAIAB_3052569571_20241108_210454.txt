@@ -1,0 +1,31 @@
+
+╔══════════════ RETRO ARCADE SYSTEM ══════════════╗
+║ HIGH_SCORE_LOG_{file_num:03d}                   ║
+╚═══════════════════════════════════════════════════╝
+
+[GAME STATISTICS]
+===============
+Player ID: {uuid}
+Game Time: {timestamp}
+Score: {magic_number}
+Level: {folder_name}
+
+[PIXEL ART]
+=========
+{art}
+
+[GAME MESSAGES]
+============
+QUEST_TEXT: "{quote}"
+BONUS_INFO: {fact}
+EASTER_EGG: {joke}
+
+[PLAYER CARD]
+===========
+Gamer Tag: RetroNahid
+Real Name: MD. Naiem Islam Nahid
+Class: Pixel Art Coder
+Achievement: Code Warrior
+
+[GAME OVER]
+INSERT COIN TO CONTINUE...

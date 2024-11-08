@@ -1,0 +1,33 @@
+
+🕰️ TEMPORAL INVESTIGATION BUREAU 🕰️
+================================
+[CASE_FILE_{file_num:03d}]
+🕰️⌛🕰️⌛🕰️⌛🕰️⌛🕰️⌛🕰️⌛
+
+<<INVESTIGATION PARAMETERS>>
+======================
+Case-ID: {uuid}
+Timeline: {timestamp}
+Paradox-Level: {magic_number}
+Time-Sector: {folder_name}
+
+<<TEMPORAL EVIDENCE>>
+================
+{art}
+
+<<CASE NOTES>>
+==========
+⌛ TIME THEORY: "{quote}"
+🕰️ CASE FACTS: {fact}
+⚡ DETECTIVE'S WIT: {joke}
+
+<<DETECTIVE BADGE>>
+==============
+Time Detective: MD. Naiem Islam Nahid
+Bureau: Temporal Crimes Division
+Rank: Chronos Inspector
+Authority: All-Times Access
+
+[CASE CLOSED]
+🕰️⌛🕰️⌛🕰️⌛🕰️⌛🕰️⌛🕰️⌛
+//TIMELINE_SECURED//

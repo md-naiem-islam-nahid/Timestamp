@@ -1,0 +1,13 @@
+# Core dependencies
+psutil>=5.9.0
+tqdm>=4.65.0
+plotly>=5.13.0
+pandas>=1.5.3
+Jinja2>=3.1.2
+humanize>=4.6.0
+PyYAML>=6.0
+xlsxwriter>=3.0.9
+
+# Optional but recommended
+colorama>=0.4.6  # For colored console output
+python-dotenv>=0.21.1  # For environment variable management

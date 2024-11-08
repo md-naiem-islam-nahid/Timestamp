@@ -1,0 +1,30 @@
+
+🔍 NEO-NOIR INVESTIGATION TERMINAL 🔍
+==================================
+CASE_FILE_{file_num:03d}
+
+[CASE PARAMETERS]
+==============
+Case ID: {uuid}
+Time Stamp: {timestamp}
+Risk Level: {magic_number}
+District: {folder_name}
+
+[EVIDENCE SCAN]
+============
+{art}
+
+[CASE NOTES]
+==========
+DEDUCTION: "{quote}"
+EVIDENCE: {fact}
+NOIR_HUMOR: {joke}
+
+[DETECTIVE BADGE]
+=============
+Code Detective: MD. Naiem Islam Nahid
+Precinct: Digital Crimes
+Status: Shadow Investigator
+
+[CASE CLOSED]
+//NOIR_END//
