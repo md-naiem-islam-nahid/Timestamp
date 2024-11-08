@@ -29,7 +29,7 @@ class ContentDesigner:
             'innovation': ['💡', '🔬', '🎯', '⚙️', '📱', '🤖']
         }
         self.fonts = [font for font in FONT_NAMES if not any(x in font.lower() for x in ['block', 'banner'])]
-        self.art_names = [art for art in ART_NAMES if len(art) > 2]
+        self.art_names = [art for art in ART_NAMES if len(art) > 5]
 
     def get_formatted_timestamp(self) -> Dict[str, str]:
         """Generate professionally formatted timestamp information"""
@@ -135,7 +135,7 @@ Quote of the Moment:
         start_time = time.time()
         
         try:
-            for folder_num in range(1, 5):
+            for folder_num in range(1, 1001):
                 # Generate folder information
                 theme = random.choice(list(self.designer.emojis.keys()))
                 folder_name = f"{folder_num:04d}_{theme}_{uuid.uuid4().hex[:6]}"
@@ -149,7 +149,7 @@ Quote of the Moment:
                              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                 
                 # Generate files
-                for file_num in range(1, 101):
+                for file_num in range(1, 1001):
                     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
                     file_name = f"{theme}_file_{timestamp}.txt"
                     file_path = os.path.join(folder_path, file_name)
